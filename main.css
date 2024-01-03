@@ -1,0 +1,293 @@
+
+body 
+{
+     background-color:#ffffff;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    
+}
+nav 
+{
+    width: 100%;
+    height: 100px;
+    line-height: 75px;
+    
+    position: fixed;
+    background-image: linear-gradient(#07020D,#07020D);
+}
+
+
+nav .logo p
+{
+    font-weight: 600;
+    font-size: 25px;
+    cursor: pointer;
+    float: left;
+    padding: 0px 75px;
+    letter-spacing: 1.5px;
+    color: white;
+    text-transform: uppercase;
+    font-family: cursive;
+}
+nav ul
+{
+    float: right;
+}
+nav li 
+{
+    display: inline-block;
+  
+    list-style: none;
+}
+nav li a 
+{
+    font-size: 16px;
+    padding: 0px 70px;
+    color: white;
+    text-decoration: none;
+    font-family:  Geneva;
+
+}
+nav li a:hover
+{
+    color:#AD9BAA ;
+    transition: all 0.4s ease 0s;
+}
+.sequence
+{
+    display: block;
+   padding-left: 10%;
+   padding-top: 12rem;
+   align-items: center;
+   text-align: justify;
+   font-weight: 400;
+   font-family: Verdana;
+   color: white;
+   
+}
+.sequence span 
+{
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.cover
+{
+   
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-image: url(images/maldives.webp);
+}
+
+.family
+{
+    
+    display: grid;
+ 
+    font-weight: 100;
+    font-family: 'Trebuchet MS';
+   align-items: center;
+   justify-content: center;
+}
+.loop
+{
+    
+    display: grid;
+    margin-left: 10rem;
+  
+    padding-left: 2rem;
+
+}
+.loop1
+{
+    display:grid;
+    padding-left: 34rem;
+    margin-left: 10rem;
+    
+}
+.loop2
+{
+    display:grid;
+    padding-left: 67rem;
+    margin-left: 10rem;
+
+}
+.move
+{
+    padding-left: 60rem;
+    
+}
+
+.mover span 
+{
+    align-items: center;
+    text-align: center;
+    margin-left: 45rem;
+    padding: 2rem 2rem 2rem 2rem;
+    border-radius: 10rem;
+    font-size: large;
+    background-color:#49111C;
+    color: white;
+    
+    
+
+}
+.mover a span
+{
+ text-decoration: none;
+ color: white;
+ font-family: cursive;
+
+}
+.tour
+{
+    padding-left: 45rem;
+    font-family: 'Trebuchet MS';
+}
+.placement
+{
+ 
+   padding-left: 6rem;
+   font-family: cursive;
+}
+.placement span 
+{
+    margin-left: 6rem;
+    padding: 1.2rem 1.2rem 1.2rem 1.2rem;
+    border-radius: 10rem;
+    background-color: #49111C;
+    color: white;
+    font-family:  cursive;
+}
+.placement1 
+{
+    padding-left: 6rem;
+    font-family: cursive;
+    
+}
+.placement1 span
+{
+    margin-left: 6rem;
+    padding:1.2rem 1.2rem 1.2rem 1.2rem;
+    border-radius: 10rem;
+    background-color: #49111C;
+    color: white;
+    font-family:  cursive;
+}
+.placement2
+{
+    padding-left: 6rem;
+    font-family: cursive;
+}
+
+.placement2 span 
+{
+    
+    margin-left: 6rem;
+    padding: 1.2rem 1.2rem 1.2rem 1.2rem;
+    border-radius: 10rem;
+    background-color:#49111C;
+    color: white;
+    font-family: cursive;
+}
+.fav
+{
+    padding-left: 45rem;
+    font-family: 'Trebuchet MS';
+}
+.popular 
+{
+    padding-left: 16rem;
+    font-size: larger;
+    font-family: cursive;
+}
+.hope
+{
+    font-family: Geneva;
+    padding-left: 80px;
+}
+.mine
+{
+    margin-left: 30rem;
+}
+.now
+{
+    padding-left: 41rem;
+    font-family: 'Trebuchet MS';
+}
+.never
+{
+    padding-left: 15rem;
+    font-size: larger;
+    font-family: cursive;
+}
+.breathe 
+{
+    padding-left: 80px;
+}
+.manifest 
+{
+   margin-left: 30rem;
+}
+.runaway 
+{
+    margin-left: 40rem;
+}
+.dead 
+{
+margin-left: 5rem;
+}
+.invincible 
+{
+    font-size: smaller;
+    font-family: Cambria;
+    font-weight: 2;
+    box-sizing: border-box;
+    padding: 1rem 1rem 1rem 1rem;
+    margin-left: 4rem;
+
+}
+.radio
+{
+    font-size: smaller;
+    font-family: Cambria;
+    font-weight: 2;
+    margin-left: 4rem;
+    padding: 1rem 1rem 1rem 1rem;
+}
+.matt
+{
+    font-size: smaller;
+    font-family: Cambria;
+    margin-left: 4rem;
+    padding: 1rem 1rem 1rem 1rem;
+
+}
+.mask
+{
+    align-items: center;
+    text-align: center;
+    margin-right: 80rem;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+    border-radius: 10rem;
+    font-size: large;
+    background-color:#49111C;
+    color: white;
+    font-size: larger;
+    
+}
+.mask  span
+{
+    color: white;
+    font-size: larger;
+    font-family: cursive;
+}
+.end
+{
+    margin-left: 5rem;
+}
